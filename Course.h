@@ -14,12 +14,13 @@ private:
     std::list<Group> m_groups;
     Faculty& m_faculty;
 public:
- std::list<Group>& VectorOfGroups();
-    void showGroups();
+    std::list<Group>& VectorOfGroups();
+    
     std::string  getName() const;
+    void showGroups();
     void print();
     void addGroup(std::string name);
     Group* getGroup(std::string name);
-   Course(std::string name, Faculty& faculty): m_name(name), m_faculty(faculty){};
+    Course(std::string name, Faculty& faculty): m_name(name), m_faculty(faculty){};
 
 };

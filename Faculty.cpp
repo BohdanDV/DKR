@@ -2,11 +2,12 @@
 #include "Course.h"
 using namespace std;
 
+
 std::list<Course>& Faculty::VectorOfCourses(){
 
     return m_cources;
 }
-string Faculty::getName () const{
+string Faculty::getName () {
     return m_name;
 }
 

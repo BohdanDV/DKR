@@ -7,11 +7,11 @@ class Faculty;
 class Course;
 
 
+
 class Group
 {
 private:
     std::string m_name;
-   
     Faculty& m_faculty;
     Course& m_course;
    

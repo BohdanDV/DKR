@@ -12,7 +12,7 @@ private:
    
     
 public:
-    std::string  getName() const;
+    std::string  getName() ;
     std::list<Course>& VectorOfCourses();
     
 

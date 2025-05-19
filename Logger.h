@@ -7,7 +7,6 @@ class Logger{
 
 private:
     static Logger& getInstance(const std::string& filename = "logfile.txt");
-   
     std::ofstream logFile;
     Logger (const Logger&){}
     Logger& operator=(Logger&)= delete;
